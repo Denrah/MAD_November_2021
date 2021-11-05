@@ -24,6 +24,8 @@ class SessionManager: NSObject, WCSessionDelegate{
 
 struct ContentView: View {
   @State var state: AppState = .timer
+  @State var correct: Int = 0
+  @State var incorrect: Int = 0
   
   let sessionManager = SessionManager()
   
@@ -43,9 +45,9 @@ struct ContentView: View {
     case .timer:
       TimerView(state: $state)
     case .test:
-      TestView(state: $state)
+      TestView(state: $state, correct: $correct, incorrect: $incorrect)
     case .finish:
-      FinishView(state: $state)
+      FinishView(state: $state, correct: $correct, incorrect: $incorrect)
     }
   }
 }
@@ -76,19 +78,34 @@ struct TimerView: View {
 
 struct TestView: View {
   @Binding var state: AppState
+  @Binding var correct: Int
+  @Binding var incorrect: Int
   
-  @State var words: [Word] = []
+  @State var words: [Word] = [
+    Word(word: "Cat", phonetic: nil, phonetics: nil, meanings: [Meaning(partOfSpeech: nil, definitions: [Definition(definition: "Domestic animal, makes meow sound", example: nil)])]),
+    Word(word: "Dog", phonetic: nil, phonetics: nil, meanings: [Meaning(partOfSpeech: nil, definitions: [Definition(definition: "Domestic animal, barks and dites", example: nil)])])
+  ]
   @State var currentWord = 0
   
   var body: some View {
     ScrollView(.vertical, showsIndicators: false) {
       VStack(spacing: 10) {
-        Text("Some not so long description of word. Not more than 50 symbols.").multilineTextAlignment(.center).foregroundColor(.white.opacity(0.85)).font(Font.init(CTFont.init("Rubik-Medium" as CFString, size: 12))).padding(.horizontal, 16)
-        Button("Some word") {
-          self.state = .finish
+        Text(words[currentWord].meanings?.first?.definitions?.first?.definition ?? "").multilineTextAlignment(.center).foregroundColor(.white.opacity(0.85)).font(Font.init(CTFont.init("Rubik-Medium" as CFString, size: 12))).padding(.horizontal, 16)
+        Button(words[currentWord].word ?? "") {
+          correct += 1
+          if currentWord < words.count - 1 {
+            currentWord += 1
+          } else {
+            state = .finish
+          }
         }.font(Font.init(CTFont.init("Rubik-Regular" as CFString, size: 14))).multilineTextAlignment(.leading)
-        Button("Another word") {
-          self.state = .finish
+        Button(words.filter { $0.word != words[currentWord].word }.randomElement()?.word ?? "Smile") {
+          incorrect += 1
+          if currentWord < words.count - 1 {
+            currentWord += 1
+          } else {
+            state = .finish
+          }
         }.font(Font.init(CTFont.init("Rubik-Regular" as CFString, size: 14))).multilineTextAlignment(.leading)
       }
     }.navigationTitle("\(currentWord) of \(words.count)").navigationBarTitleDisplayMode(.inline)
@@ -97,11 +114,13 @@ struct TestView: View {
 
 struct FinishView: View {
   @Binding var state: AppState
+  @Binding var correct: Int
+  @Binding var incorrect: Int
   
   var body: some View {
     VStack {
       Spacer()
-      Text("Correct: 9\nIncorrent: 1").multilineTextAlignment(.center).foregroundColor(Color(UIColor(red: 0.471, green: 0.456, blue: 0.427, alpha: 1))).font(Font.init(CTFont.init("Rubik-Regular" as CFString, size: 14))).padding(.bottom, 24)
+      Text("Correct: \(correct)\nIncorrent: \(incorrect)").multilineTextAlignment(.center).foregroundColor(Color(UIColor(red: 0.471, green: 0.456, blue: 0.427, alpha: 1))).font(Font.init(CTFont.init("Rubik-Regular" as CFString, size: 14))).padding(.bottom, 24)
       Button("Repeat") {
         self.state = .timer
       }.font(Font.init(CTFont.init("Rubik-Regular" as CFString, size: 14))).navigationTitle("Finish").navigationBarTitleDisplayMode(.inline)
