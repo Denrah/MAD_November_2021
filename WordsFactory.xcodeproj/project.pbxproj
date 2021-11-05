@@ -70,6 +70,23 @@
 		72FA3A01273570970013B093 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA39FE273570970013B093 /* Rubik-Regular.ttf */; };
 		72FA3A02273570970013B093 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA39FF273570970013B093 /* Rubik-Bold.ttf */; };
 		72FA3A03273570970013B093 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA3A00273570970013B093 /* Rubik-Medium.ttf */; };
+		72FA3A092735740B0013B093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FA3A082735740B0013B093 /* Assets.xcassets */; };
+		72FA3A0F2735740B0013B093 /* WordsWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 72FA3A0E2735740B0013B093 /* WordsWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72FA3A142735740B0013B093 /* WordsFactoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3A132735740B0013B093 /* WordsFactoryApp.swift */; };
+		72FA3A162735740B0013B093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3A152735740B0013B093 /* ContentView.swift */; };
+		72FA3A182735740B0013B093 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3A172735740B0013B093 /* NotificationController.swift */; };
+		72FA3A1A2735740B0013B093 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3A192735740B0013B093 /* NotificationView.swift */; };
+		72FA3A1C2735740B0013B093 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3A1B2735740B0013B093 /* ComplicationController.swift */; };
+		72FA3A1E2735740C0013B093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FA3A1D2735740C0013B093 /* Assets.xcassets */; };
+		72FA3A212735740C0013B093 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FA3A202735740C0013B093 /* Preview Assets.xcassets */; };
+		72FA3A2D2735740C0013B093 /* WordsWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3A2C2735740C0013B093 /* WordsWatchTests.swift */; };
+		72FA3A372735740C0013B093 /* WordsWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3A362735740C0013B093 /* WordsWatchUITests.swift */; };
+		72FA3A392735740C0013B093 /* WordsWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3A382735740C0013B093 /* WordsWatchUITestsLaunchTests.swift */; };
+		72FA3A3C2735740C0013B093 /* WordsWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 72FA3A06273574080013B093 /* WordsWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72FA3A4F273574660013B093 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA3A4C273574660013B093 /* Rubik-Regular.ttf */; };
+		72FA3A50273574660013B093 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA3A4D273574660013B093 /* Rubik-Bold.ttf */; };
+		72FA3A51273574660013B093 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA3A4E273574660013B093 /* Rubik-Medium.ttf */; };
+		72FA3A5227357B210013B093 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39A3273519490013B093 /* Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +111,34 @@
 			remoteGlobalIDString = 72FA39E427356E1A0013B093;
 			remoteInfo = WordsWidgetExtension;
 		};
+		72FA3A102735740B0013B093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72FA3932273501B20013B093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72FA3A0D2735740B0013B093;
+			remoteInfo = "WordsWatch WatchKit Extension";
+		};
+		72FA3A292735740C0013B093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72FA3932273501B20013B093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72FA3A0D2735740B0013B093;
+			remoteInfo = "WordsWatch WatchKit Extension";
+		};
+		72FA3A332735740C0013B093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72FA3932273501B20013B093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72FA3A05273574080013B093;
+			remoteInfo = WordsWatch;
+		};
+		72FA3A3A2735740C0013B093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72FA3932273501B20013B093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72FA3A05273574080013B093;
+			remoteInfo = WordsWatch;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -106,6 +151,28 @@
 				72FA39F627356E1D0013B093 /* WordsWidgetExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FA3A402735740C0013B093 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				72FA3A0F2735740B0013B093 /* WordsWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FA3A442735740C0013B093 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				72FA3A3C2735740C0013B093 /* WordsWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -173,6 +240,26 @@
 		72FA39FE273570970013B093 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		72FA39FF273570970013B093 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
 		72FA3A00273570970013B093 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		72FA3A06273574080013B093 /* WordsWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordsWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FA3A082735740B0013B093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72FA3A0E2735740B0013B093 /* WordsWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WordsWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FA3A132735740B0013B093 /* WordsFactoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsFactoryApp.swift; sourceTree = "<group>"; };
+		72FA3A152735740B0013B093 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72FA3A172735740B0013B093 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		72FA3A192735740B0013B093 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		72FA3A1B2735740B0013B093 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		72FA3A1D2735740C0013B093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72FA3A202735740C0013B093 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72FA3A222735740C0013B093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72FA3A232735740C0013B093 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		72FA3A282735740C0013B093 /* WordsWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FA3A2C2735740C0013B093 /* WordsWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsWatchTests.swift; sourceTree = "<group>"; };
+		72FA3A322735740C0013B093 /* WordsWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FA3A362735740C0013B093 /* WordsWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsWatchUITests.swift; sourceTree = "<group>"; };
+		72FA3A382735740C0013B093 /* WordsWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72FA3A4C273574660013B093 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		72FA3A4D273574660013B093 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		72FA3A4E273574660013B093 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +300,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72FA3A0B2735740B0013B093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FA3A252735740C0013B093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FA3A2F2735740C0013B093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -224,6 +332,10 @@
 				72FA3953273501B40013B093 /* WordsFactoryTests */,
 				72FA395D273501B40013B093 /* WordsFactoryUITests */,
 				72FA39EB27356E1A0013B093 /* WordsWidget */,
+				72FA3A07273574080013B093 /* WordsWatch */,
+				72FA3A122735740B0013B093 /* WordsWatch WatchKit Extension */,
+				72FA3A2B2735740C0013B093 /* WordsWatchTests */,
+				72FA3A352735740C0013B093 /* WordsWatchUITests */,
 				72FA39E627356E1A0013B093 /* Frameworks */,
 				72FA393B273501B20013B093 /* Products */,
 			);
@@ -236,6 +348,10 @@
 				72FA3950273501B40013B093 /* WordsFactoryTests.xctest */,
 				72FA395A273501B40013B093 /* WordsFactoryUITests.xctest */,
 				72FA39E527356E1A0013B093 /* WordsWidgetExtension.appex */,
+				72FA3A06273574080013B093 /* WordsWatch.app */,
+				72FA3A0E2735740B0013B093 /* WordsWatch WatchKit Extension.appex */,
+				72FA3A282735740C0013B093 /* WordsWatchTests.xctest */,
+				72FA3A322735740C0013B093 /* WordsWatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -500,6 +616,66 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		72FA3A07273574080013B093 /* WordsWatch */ = {
+			isa = PBXGroup;
+			children = (
+				72FA3A082735740B0013B093 /* Assets.xcassets */,
+			);
+			path = WordsWatch;
+			sourceTree = "<group>";
+		};
+		72FA3A122735740B0013B093 /* WordsWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				72FA3A4B2735744B0013B093 /* Fonts */,
+				72FA3A132735740B0013B093 /* WordsFactoryApp.swift */,
+				72FA3A152735740B0013B093 /* ContentView.swift */,
+				72FA3A172735740B0013B093 /* NotificationController.swift */,
+				72FA3A192735740B0013B093 /* NotificationView.swift */,
+				72FA3A1B2735740B0013B093 /* ComplicationController.swift */,
+				72FA3A1D2735740C0013B093 /* Assets.xcassets */,
+				72FA3A222735740C0013B093 /* Info.plist */,
+				72FA3A232735740C0013B093 /* PushNotificationPayload.apns */,
+				72FA3A1F2735740C0013B093 /* Preview Content */,
+			);
+			path = "WordsWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		72FA3A1F2735740C0013B093 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				72FA3A202735740C0013B093 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72FA3A2B2735740C0013B093 /* WordsWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				72FA3A2C2735740C0013B093 /* WordsWatchTests.swift */,
+			);
+			path = WordsWatchTests;
+			sourceTree = "<group>";
+		};
+		72FA3A352735740C0013B093 /* WordsWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72FA3A362735740C0013B093 /* WordsWatchUITests.swift */,
+				72FA3A382735740C0013B093 /* WordsWatchUITestsLaunchTests.swift */,
+			);
+			path = WordsWatchUITests;
+			sourceTree = "<group>";
+		};
+		72FA3A4B2735744B0013B093 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				72FA3A4D273574660013B093 /* Rubik-Bold.ttf */,
+				72FA3A4E273574660013B093 /* Rubik-Medium.ttf */,
+				72FA3A4C273574660013B093 /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -511,11 +687,13 @@
 				72FA3937273501B20013B093 /* Frameworks */,
 				72FA3938273501B20013B093 /* Resources */,
 				72FA39FA27356E1D0013B093 /* Embed App Extensions */,
+				72FA3A442735740C0013B093 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				72FA39F527356E1D0013B093 /* PBXTargetDependency */,
+				72FA3A3B2735740C0013B093 /* PBXTargetDependency */,
 			);
 			name = WordsFactory;
 			packageProductDependencies = (
@@ -584,6 +762,76 @@
 			productReference = 72FA39E527356E1A0013B093 /* WordsWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		72FA3A05273574080013B093 /* WordsWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FA3A412735740C0013B093 /* Build configuration list for PBXNativeTarget "WordsWatch" */;
+			buildPhases = (
+				72FA3A04273574080013B093 /* Resources */,
+				72FA3A402735740C0013B093 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72FA3A112735740B0013B093 /* PBXTargetDependency */,
+			);
+			name = WordsWatch;
+			productName = WordsWatch;
+			productReference = 72FA3A06273574080013B093 /* WordsWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		72FA3A0D2735740B0013B093 /* WordsWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FA3A3D2735740C0013B093 /* Build configuration list for PBXNativeTarget "WordsWatch WatchKit Extension" */;
+			buildPhases = (
+				72FA3A0A2735740B0013B093 /* Sources */,
+				72FA3A0B2735740B0013B093 /* Frameworks */,
+				72FA3A0C2735740B0013B093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WordsWatch WatchKit Extension";
+			productName = "WordsWatch WatchKit Extension";
+			productReference = 72FA3A0E2735740B0013B093 /* WordsWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		72FA3A272735740C0013B093 /* WordsWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FA3A452735740C0013B093 /* Build configuration list for PBXNativeTarget "WordsWatchTests" */;
+			buildPhases = (
+				72FA3A242735740C0013B093 /* Sources */,
+				72FA3A252735740C0013B093 /* Frameworks */,
+				72FA3A262735740C0013B093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72FA3A2A2735740C0013B093 /* PBXTargetDependency */,
+			);
+			name = WordsWatchTests;
+			productName = WordsWatchTests;
+			productReference = 72FA3A282735740C0013B093 /* WordsWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72FA3A312735740C0013B093 /* WordsWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FA3A482735740C0013B093 /* Build configuration list for PBXNativeTarget "WordsWatchUITests" */;
+			buildPhases = (
+				72FA3A2E2735740C0013B093 /* Sources */,
+				72FA3A2F2735740C0013B093 /* Frameworks */,
+				72FA3A302735740C0013B093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72FA3A342735740C0013B093 /* PBXTargetDependency */,
+			);
+			name = WordsWatchUITests;
+			productName = WordsWatchUITests;
+			productReference = 72FA3A322735740C0013B093 /* WordsWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -607,6 +855,20 @@
 					};
 					72FA39E427356E1A0013B093 = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					72FA3A05273574080013B093 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					72FA3A0D2735740B0013B093 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					72FA3A272735740C0013B093 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 72FA3A0D2735740B0013B093;
+					};
+					72FA3A312735740C0013B093 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 72FA3A05273574080013B093;
 					};
 				};
 			};
@@ -636,6 +898,10 @@
 				72FA394F273501B40013B093 /* WordsFactoryTests */,
 				72FA3959273501B40013B093 /* WordsFactoryUITests */,
 				72FA39E427356E1A0013B093 /* WordsWidgetExtension */,
+				72FA3A05273574080013B093 /* WordsWatch */,
+				72FA3A0D2735740B0013B093 /* WordsWatch WatchKit Extension */,
+				72FA3A272735740C0013B093 /* WordsWatchTests */,
+				72FA3A312735740C0013B093 /* WordsWatchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -676,6 +942,40 @@
 				72FA3A02273570970013B093 /* Rubik-Bold.ttf in Resources */,
 				72FA3A01273570970013B093 /* Rubik-Regular.ttf in Resources */,
 				72FA3A03273570970013B093 /* Rubik-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FA3A04273574080013B093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FA3A092735740B0013B093 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FA3A0C2735740B0013B093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FA3A212735740C0013B093 /* Preview Assets.xcassets in Resources */,
+				72FA3A50273574660013B093 /* Rubik-Bold.ttf in Resources */,
+				72FA3A4F273574660013B093 /* Rubik-Regular.ttf in Resources */,
+				72FA3A1E2735740C0013B093 /* Assets.xcassets in Resources */,
+				72FA3A51273574660013B093 /* Rubik-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FA3A262735740C0013B093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FA3A302735740C0013B093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,6 +1053,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72FA3A0A2735740B0013B093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FA3A182735740B0013B093 /* NotificationController.swift in Sources */,
+				72FA3A162735740B0013B093 /* ContentView.swift in Sources */,
+				72FA3A1C2735740B0013B093 /* ComplicationController.swift in Sources */,
+				72FA3A142735740B0013B093 /* WordsFactoryApp.swift in Sources */,
+				72FA3A1A2735740B0013B093 /* NotificationView.swift in Sources */,
+				72FA3A5227357B210013B093 /* Word.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FA3A242735740C0013B093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FA3A2D2735740C0013B093 /* WordsWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72FA3A2E2735740C0013B093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FA3A392735740C0013B093 /* WordsWatchUITestsLaunchTests.swift in Sources */,
+				72FA3A372735740C0013B093 /* WordsWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -770,6 +1100,26 @@
 			isa = PBXTargetDependency;
 			target = 72FA39E427356E1A0013B093 /* WordsWidgetExtension */;
 			targetProxy = 72FA39F427356E1D0013B093 /* PBXContainerItemProxy */;
+		};
+		72FA3A112735740B0013B093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72FA3A0D2735740B0013B093 /* WordsWatch WatchKit Extension */;
+			targetProxy = 72FA3A102735740B0013B093 /* PBXContainerItemProxy */;
+		};
+		72FA3A2A2735740C0013B093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72FA3A0D2735740B0013B093 /* WordsWatch WatchKit Extension */;
+			targetProxy = 72FA3A292735740C0013B093 /* PBXContainerItemProxy */;
+		};
+		72FA3A342735740C0013B093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72FA3A05273574080013B093 /* WordsWatch */;
+			targetProxy = 72FA3A332735740C0013B093 /* PBXContainerItemProxy */;
+		};
+		72FA3A3B2735740C0013B093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72FA3A05273574080013B093 /* WordsWatch */;
+			targetProxy = 72FA3A3A2735740C0013B093 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1125,6 +1475,220 @@
 			};
 			name = Release;
 		};
+		72FA3A3E2735740C0013B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WordsWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WordsWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WordsWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsustudy.WordsFactory.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		72FA3A3F2735740C0013B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WordsWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WordsWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WordsWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsustudy.WordsFactory.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		72FA3A422735740C0013B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WordsWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = WordsWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tsustudy.WordsFactory;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsustudy.WordsFactory.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		72FA3A432735740C0013B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WordsWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = WordsWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tsustudy.WordsFactory;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsustudy.WordsFactory.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		72FA3A462735740C0013B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsustudy.WordsFactory.WordsWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordsWatch WatchKit Extension.appex/WordsWatch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		72FA3A472735740C0013B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsustudy.WordsFactory.WordsWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordsWatch WatchKit Extension.appex/WordsWatch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		72FA3A492735740C0013B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsustudy.WordsFactory.WordsWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = WordsWatch;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		72FA3A4A2735740C0013B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsustudy.WordsFactory.WordsWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = WordsWatch;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1169,6 +1733,42 @@
 			buildConfigurations = (
 				72FA39F827356E1D0013B093 /* Debug */,
 				72FA39F927356E1D0013B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FA3A3D2735740C0013B093 /* Build configuration list for PBXNativeTarget "WordsWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FA3A3E2735740C0013B093 /* Debug */,
+				72FA3A3F2735740C0013B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FA3A412735740C0013B093 /* Build configuration list for PBXNativeTarget "WordsWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FA3A422735740C0013B093 /* Debug */,
+				72FA3A432735740C0013B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FA3A452735740C0013B093 /* Build configuration list for PBXNativeTarget "WordsWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FA3A462735740C0013B093 /* Debug */,
+				72FA3A472735740C0013B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FA3A482735740C0013B093 /* Build configuration list for PBXNativeTarget "WordsWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FA3A492735740C0013B093 /* Debug */,
+				72FA3A4A2735740C0013B093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
