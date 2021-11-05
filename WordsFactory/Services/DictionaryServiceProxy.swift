@@ -11,6 +11,10 @@ import PromiseKit
 protocol DictionaryService {
   func search(word: String) -> Promise<[Word]>
   func save(word: Word)
+  func savedWords() -> [Word]
+  func savedWordsCount() -> Int
+  func getRates() -> [Rate]
+  func saveRate(rate: Rate)
 }
 
 class DictionaryServiceProxy: DictionaryService {
@@ -27,5 +31,21 @@ class DictionaryServiceProxy: DictionaryService {
   
   func save(word: Word) {
     localService.save(word: word)
+  }
+  
+  func savedWords() -> [Word] {
+    return localService.savedWords()
+  }
+  
+  func savedWordsCount() -> Int {
+    localService.savedWordsCount()
+  }
+  
+  func getRates() -> [Rate] {
+    return localService.getRates()
+  }
+  
+  func saveRate(rate: Rate) {
+    localService.saveRate(rate: rate)
   }
 }

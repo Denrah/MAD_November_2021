@@ -165,6 +165,8 @@ class DictionaryViewController: BaseViewController {
       switch tabType {
       case .video:
         self?.navigationController?.setViewControllers([VideoViewController(viewModel: VideoViewModel())], animated: false)
+      case .training:
+        self?.navigationController?.setViewControllers([TrainingViewController(viewModel: TrainingViewModel())], animated: false)
       default:
         break
       }

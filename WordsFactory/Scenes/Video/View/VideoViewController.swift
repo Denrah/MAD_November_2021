@@ -47,6 +47,8 @@ class VideoViewController: BaseViewController {
       switch tabType {
       case .dictionary:
         self?.navigationController?.setViewControllers([DictionaryViewController(viewModel: DictionaryViewModel())], animated: false)
+      case .training:
+        self?.navigationController?.setViewControllers([TrainingViewController(viewModel: TrainingViewModel())], animated: false)
       default:
         break
       }

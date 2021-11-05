@@ -54,4 +54,20 @@ class DictionaryRemoteServiceSingletone: DictionaryService {
   func save(word: Word) {
     // Do nothing
   }
+  
+  func savedWords() -> [Word] {
+    return []
+  }
+  
+  func savedWordsCount() -> Int {
+    return 0
+  }
+  
+  func getRates() -> [Rate] {
+    return []
+  }
+  
+  func saveRate(rate: Rate) {
+    // Do nothing
+  }
 }

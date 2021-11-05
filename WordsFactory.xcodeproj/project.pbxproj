@@ -53,6 +53,23 @@
 		72FA39CA27353AF90013B093 /* OnboardingPagesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39C927353AF80013B093 /* OnboardingPagesFactory.swift */; };
 		72FA39CC27353BCC0013B093 /* OnboardingPageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39CB27353BCC0013B093 /* OnboardingPageType.swift */; };
 		72FA39CF273540040013B093 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39CE273540040013B093 /* SignUpViewController.swift */; };
+		72FA39D2273554F60013B093 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39D1273554F60013B093 /* TrainingViewController.swift */; };
+		72FA39D6273555BD0013B093 /* TrainingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39D5273555BD0013B093 /* TrainingViewModel.swift */; };
+		72FA39D8273557E10013B093 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39D7273557E10013B093 /* TestViewController.swift */; };
+		72FA39DA273559640013B093 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39D9273559640013B093 /* TestViewModel.swift */; };
+		72FA39DC273559860013B093 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39DB273559860013B093 /* Rate.swift */; };
+		72FA39DE27355CE30013B093 /* WordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39DD27355CE30013B093 /* WordButton.swift */; };
+		72FA39E0273565B30013B093 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39DF273565B30013B093 /* FinishViewController.swift */; };
+		72FA39E827356E1A0013B093 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FA39E727356E1A0013B093 /* WidgetKit.framework */; };
+		72FA39EA27356E1A0013B093 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FA39E927356E1A0013B093 /* SwiftUI.framework */; };
+		72FA39ED27356E1A0013B093 /* WordsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39EC27356E1A0013B093 /* WordsWidget.swift */; };
+		72FA39F027356E1D0013B093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FA39EF27356E1D0013B093 /* Assets.xcassets */; };
+		72FA39F227356E1D0013B093 /* WordsWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39EE27356E1A0013B093 /* WordsWidget.intentdefinition */; };
+		72FA39F327356E1D0013B093 /* WordsWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39EE27356E1A0013B093 /* WordsWidget.intentdefinition */; };
+		72FA39F627356E1D0013B093 /* WordsWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 72FA39E527356E1A0013B093 /* WordsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72FA3A01273570970013B093 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA39FE273570970013B093 /* Rubik-Regular.ttf */; };
+		72FA3A02273570970013B093 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA39FF273570970013B093 /* Rubik-Bold.ttf */; };
+		72FA3A03273570970013B093 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA3A00273570970013B093 /* Rubik-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +87,28 @@
 			remoteGlobalIDString = 72FA3939273501B20013B093;
 			remoteInfo = WordsFactory;
 		};
+		72FA39F427356E1D0013B093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72FA3932273501B20013B093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72FA39E427356E1A0013B093;
+			remoteInfo = WordsWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72FA39FA27356E1D0013B093 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				72FA39F627356E1D0013B093 /* WordsWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		72FA393A273501B20013B093 /* WordsFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordsFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +154,25 @@
 		72FA39C927353AF80013B093 /* OnboardingPagesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPagesFactory.swift; sourceTree = "<group>"; };
 		72FA39CB27353BCC0013B093 /* OnboardingPageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageType.swift; sourceTree = "<group>"; };
 		72FA39CE273540040013B093 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		72FA39D1273554F60013B093 /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		72FA39D5273555BD0013B093 /* TrainingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewModel.swift; sourceTree = "<group>"; };
+		72FA39D7273557E10013B093 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		72FA39D9273559640013B093 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		72FA39DB273559860013B093 /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		72FA39DD27355CE30013B093 /* WordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordButton.swift; sourceTree = "<group>"; };
+		72FA39DF273565B30013B093 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		72FA39E527356E1A0013B093 /* WordsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WordsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FA39E727356E1A0013B093 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		72FA39E927356E1A0013B093 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		72FA39EC27356E1A0013B093 /* WordsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsWidget.swift; sourceTree = "<group>"; };
+		72FA39EE27356E1A0013B093 /* WordsWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WordsWidget.intentdefinition; sourceTree = "<group>"; };
+		72FA39EF27356E1D0013B093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72FA39F127356E1D0013B093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72FA39FB27356E2B0013B093 /* WordsFactory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordsFactory.entitlements; sourceTree = "<group>"; };
+		72FA39FC27356E3C0013B093 /* WordsWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordsWidgetExtension.entitlements; sourceTree = "<group>"; };
+		72FA39FE273570970013B093 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		72FA39FF273570970013B093 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		72FA3A00273570970013B093 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,15 +204,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72FA39E227356E1A0013B093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FA39EA27356E1A0013B093 /* SwiftUI.framework in Frameworks */,
+				72FA39E827356E1A0013B093 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		72FA3931273501B20013B093 = {
 			isa = PBXGroup;
 			children = (
+				72FA39FC27356E3C0013B093 /* WordsWidgetExtension.entitlements */,
 				72FA393C273501B20013B093 /* WordsFactory */,
 				72FA3953273501B40013B093 /* WordsFactoryTests */,
 				72FA395D273501B40013B093 /* WordsFactoryUITests */,
+				72FA39EB27356E1A0013B093 /* WordsWidget */,
+				72FA39E627356E1A0013B093 /* Frameworks */,
 				72FA393B273501B20013B093 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -166,6 +235,7 @@
 				72FA393A273501B20013B093 /* WordsFactory.app */,
 				72FA3950273501B40013B093 /* WordsFactoryTests.xctest */,
 				72FA395A273501B40013B093 /* WordsFactoryUITests.xctest */,
+				72FA39E527356E1A0013B093 /* WordsWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +243,7 @@
 		72FA393C273501B20013B093 /* WordsFactory */ = {
 			isa = PBXGroup;
 			children = (
+				72FA39FB27356E2B0013B093 /* WordsFactory.entitlements */,
 				72FA39A22735193D0013B093 /* Model */,
 				72FA399B273518A40013B093 /* Services */,
 				72FA398D273514740013B093 /* Scenes */,
@@ -240,6 +311,7 @@
 		72FA398D273514740013B093 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				72FA39D0273554DE0013B093 /* Training */,
 				72FA39CD27353FE80013B093 /* Sign Up */,
 				72FA39BE2735373C0013B093 /* Onboarding */,
 				72FA39B727352FC80013B093 /* Video */,
@@ -271,6 +343,7 @@
 			isa = PBXGroup;
 			children = (
 				72FA39A3273519490013B093 /* Word.swift */,
+				72FA39DB273559860013B093 /* Rate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -367,6 +440,66 @@
 			path = "Sign Up";
 			sourceTree = "<group>";
 		};
+		72FA39D0273554DE0013B093 /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39D4273555B00013B093 /* View Model */,
+				72FA39D3273555A90013B093 /* View */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		72FA39D3273555A90013B093 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39D1273554F60013B093 /* TrainingViewController.swift */,
+				72FA39D7273557E10013B093 /* TestViewController.swift */,
+				72FA39DD27355CE30013B093 /* WordButton.swift */,
+				72FA39DF273565B30013B093 /* FinishViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72FA39D4273555B00013B093 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39D5273555BD0013B093 /* TrainingViewModel.swift */,
+				72FA39D9273559640013B093 /* TestViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		72FA39E627356E1A0013B093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39E727356E1A0013B093 /* WidgetKit.framework */,
+				72FA39E927356E1A0013B093 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72FA39EB27356E1A0013B093 /* WordsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39FD273570620013B093 /* Fonts */,
+				72FA39EC27356E1A0013B093 /* WordsWidget.swift */,
+				72FA39EE27356E1A0013B093 /* WordsWidget.intentdefinition */,
+				72FA39EF27356E1D0013B093 /* Assets.xcassets */,
+				72FA39F127356E1D0013B093 /* Info.plist */,
+			);
+			path = WordsWidget;
+			sourceTree = "<group>";
+		};
+		72FA39FD273570620013B093 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39FF273570970013B093 /* Rubik-Bold.ttf */,
+				72FA3A00273570970013B093 /* Rubik-Medium.ttf */,
+				72FA39FE273570970013B093 /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -377,10 +510,12 @@
 				72FA3936273501B20013B093 /* Sources */,
 				72FA3937273501B20013B093 /* Frameworks */,
 				72FA3938273501B20013B093 /* Resources */,
+				72FA39FA27356E1D0013B093 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				72FA39F527356E1D0013B093 /* PBXTargetDependency */,
 			);
 			name = WordsFactory;
 			packageProductDependencies = (
@@ -432,6 +567,23 @@
 			productReference = 72FA395A273501B40013B093 /* WordsFactoryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		72FA39E427356E1A0013B093 /* WordsWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FA39F727356E1D0013B093 /* Build configuration list for PBXNativeTarget "WordsWidgetExtension" */;
+			buildPhases = (
+				72FA39E127356E1A0013B093 /* Sources */,
+				72FA39E227356E1A0013B093 /* Frameworks */,
+				72FA39E327356E1A0013B093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordsWidgetExtension;
+			productName = WordsWidgetExtension;
+			productReference = 72FA39E527356E1A0013B093 /* WordsWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -452,6 +604,9 @@
 					72FA3959273501B40013B093 = {
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 72FA3939273501B20013B093;
+					};
+					72FA39E427356E1A0013B093 = {
+						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
@@ -480,6 +635,7 @@
 				72FA3939273501B20013B093 /* WordsFactory */,
 				72FA394F273501B40013B093 /* WordsFactoryTests */,
 				72FA3959273501B40013B093 /* WordsFactoryUITests */,
+				72FA39E427356E1A0013B093 /* WordsWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -512,6 +668,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72FA39E327356E1A0013B093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FA39F027356E1D0013B093 /* Assets.xcassets in Resources */,
+				72FA3A02273570970013B093 /* Rubik-Bold.ttf in Resources */,
+				72FA3A01273570970013B093 /* Rubik-Regular.ttf in Resources */,
+				72FA3A03273570970013B093 /* Rubik-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -519,21 +686,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FA39D2273554F60013B093 /* TrainingViewController.swift in Sources */,
 				72FA3992273514D70013B093 /* DictionaryViewModel.swift in Sources */,
 				72FA39B627352E780013B093 /* TabBarFactory.swift in Sources */,
+				72FA39DC273559860013B093 /* Rate.swift in Sources */,
 				72FA39CA27353AF90013B093 /* OnboardingPagesFactory.swift in Sources */,
 				72FA39A4273519490013B093 /* Word.swift in Sources */,
 				72FA3998273515B70013B093 /* Colors.swift in Sources */,
 				72FA39C82735398E0013B093 /* OnboardingViewModel.swift in Sources */,
 				72FA3990273514CD0013B093 /* DictionaryViewController.swift in Sources */,
+				72FA39DA273559640013B093 /* TestViewModel.swift in Sources */,
 				72FA39A1273519010013B093 /* DictionaryLocalServiceSingletone.swift in Sources */,
 				72FA39B927352FDE0013B093 /* VideoViewController.swift in Sources */,
 				72FA39C6273539440013B093 /* OnboadingPageViewModel.swift in Sources */,
 				72FA399A273516FD0013B093 /* TextField.swift in Sources */,
 				72FA398C273514350013B093 /* Fonts.swift in Sources */,
+				72FA39D8273557E10013B093 /* TestViewController.swift in Sources */,
 				72FA3942273501B20013B093 /* ViewController.swift in Sources */,
 				72FA393E273501B20013B093 /* AppDelegate.swift in Sources */,
 				72FA399F273518F40013B093 /* DictionaryRemoteServiceSingletone.swift in Sources */,
+				72FA39E0273565B30013B093 /* FinishViewController.swift in Sources */,
 				72FA39AF2735284E0013B093 /* TabBarView.swift in Sources */,
 				72FA39C3273537A90013B093 /* OnboadingPageView.swift in Sources */,
 				72FA399D273518C20013B093 /* DictionaryServiceProxy.swift in Sources */,
@@ -542,10 +714,13 @@
 				72FA39B227352CB40013B093 /* TabBarItemView.swift in Sources */,
 				72FA39AB273522520013B093 /* MeaningViewModel.swift in Sources */,
 				72FA39AD273524AD0013B093 /* CommonButton.swift in Sources */,
+				72FA39DE27355CE30013B093 /* WordButton.swift in Sources */,
 				72FA39BD273530D20013B093 /* VideoViewModel.swift in Sources */,
 				72FA39CF273540040013B093 /* SignUpViewController.swift in Sources */,
+				72FA39D6273555BD0013B093 /* TrainingViewModel.swift in Sources */,
 				72FA39C12735375B0013B093 /* OnboardingViewController.swift in Sources */,
 				72FA39962735151D0013B093 /* DictPlaceholderView.swift in Sources */,
+				72FA39F327356E1D0013B093 /* WordsWidget.intentdefinition in Sources */,
 				72FA39B427352D970013B093 /* TabType.swift in Sources */,
 				72FA3940273501B20013B093 /* SceneDelegate.swift in Sources */,
 				72FA39A62735219C0013B093 /* MeaningView.swift in Sources */,
@@ -569,6 +744,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72FA39E127356E1A0013B093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FA39F227356E1D0013B093 /* WordsWidget.intentdefinition in Sources */,
+				72FA39ED27356E1A0013B093 /* WordsWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -581,6 +765,11 @@
 			isa = PBXTargetDependency;
 			target = 72FA3939273501B20013B093 /* WordsFactory */;
 			targetProxy = 72FA395B273501B40013B093 /* PBXContainerItemProxy */;
+		};
+		72FA39F527356E1D0013B093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72FA39E427356E1A0013B093 /* WordsWidgetExtension */;
+			targetProxy = 72FA39F427356E1D0013B093 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -723,8 +912,10 @@
 		72FA3965273501B40013B093 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordsFactory/WordsFactory.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T5T228SHK5;
@@ -752,8 +943,10 @@
 		72FA3966273501B40013B093 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordsFactory/WordsFactory.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T5T228SHK5;
@@ -874,6 +1067,64 @@
 			};
 			name = Release;
 		};
+		72FA39F827356E1D0013B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WordsWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WordsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsustudy.WordsFactory.WordsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72FA39F927356E1D0013B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WordsWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5T228SHK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WordsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsustudy.WordsFactory.WordsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -909,6 +1160,15 @@
 			buildConfigurations = (
 				72FA396B273501B40013B093 /* Debug */,
 				72FA396C273501B40013B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FA39F727356E1D0013B093 /* Build configuration list for PBXNativeTarget "WordsWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FA39F827356E1D0013B093 /* Debug */,
+				72FA39F927356E1D0013B093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
