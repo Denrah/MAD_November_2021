@@ -52,6 +52,7 @@
 		72FA39C82735398E0013B093 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39C72735398E0013B093 /* OnboardingViewModel.swift */; };
 		72FA39CA27353AF90013B093 /* OnboardingPagesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39C927353AF80013B093 /* OnboardingPagesFactory.swift */; };
 		72FA39CC27353BCC0013B093 /* OnboardingPageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39CB27353BCC0013B093 /* OnboardingPageType.swift */; };
+		72FA39CF273540040013B093 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39CE273540040013B093 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		72FA39C72735398E0013B093 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		72FA39C927353AF80013B093 /* OnboardingPagesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPagesFactory.swift; sourceTree = "<group>"; };
 		72FA39CB27353BCC0013B093 /* OnboardingPageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageType.swift; sourceTree = "<group>"; };
+		72FA39CE273540040013B093 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 		72FA398D273514740013B093 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				72FA39CD27353FE80013B093 /* Sign Up */,
 				72FA39BE2735373C0013B093 /* Onboarding */,
 				72FA39B727352FC80013B093 /* Video */,
 				72FA398E273514BA0013B093 /* Dictionary */,
@@ -354,6 +357,14 @@
 				72FA39CB27353BCC0013B093 /* OnboardingPageType.swift */,
 			);
 			path = "View Model";
+			sourceTree = "<group>";
+		};
+		72FA39CD27353FE80013B093 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39CE273540040013B093 /* SignUpViewController.swift */,
+			);
+			path = "Sign Up";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -532,6 +543,7 @@
 				72FA39AB273522520013B093 /* MeaningViewModel.swift in Sources */,
 				72FA39AD273524AD0013B093 /* CommonButton.swift in Sources */,
 				72FA39BD273530D20013B093 /* VideoViewModel.swift in Sources */,
+				72FA39CF273540040013B093 /* SignUpViewController.swift in Sources */,
 				72FA39C12735375B0013B093 /* OnboardingViewController.swift in Sources */,
 				72FA39962735151D0013B093 /* DictPlaceholderView.swift in Sources */,
 				72FA39B427352D970013B093 /* TabType.swift in Sources */,

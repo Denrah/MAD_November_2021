@@ -84,7 +84,7 @@ class OnboardingViewController: BaseViewController {
   }
   
   @objc func showMain() {
-    navigationController?.setViewControllers([DictionaryViewController(viewModel: DictionaryViewModel())], animated: true)
+    navigationController?.setViewControllers([SignUpViewController()], animated: true)
   }
   
   /*
