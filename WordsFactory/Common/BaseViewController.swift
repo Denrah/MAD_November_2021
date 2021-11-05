@@ -8,13 +8,20 @@
 import UIKit
 import SnapKit
 import MBProgressHUD
+import Alamofire
 
 class BaseViewController: UIViewController {
+  
+  let manager = NetworkReachabilityManager(host: "https://api.dictionaryapi.dev")
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
     view.backgroundColor = .white
+    
+    if manager?.isReachable == false {
+      showAlert(text: "No internet connection")
+    }
     
     // Do any additional setup after loading the view.
   }
