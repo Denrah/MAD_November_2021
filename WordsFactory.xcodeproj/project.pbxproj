@@ -16,6 +16,36 @@
 		72FA3955273501B40013B093 /* WordsFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3954273501B40013B093 /* WordsFactoryTests.swift */; };
 		72FA395F273501B40013B093 /* WordsFactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA395E273501B40013B093 /* WordsFactoryUITests.swift */; };
 		72FA3961273501B40013B093 /* WordsFactoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3960273501B40013B093 /* WordsFactoryUITestsLaunchTests.swift */; };
+		72FA396F273501E70013B093 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 72FA396E273501E70013B093 /* Alamofire */; };
+		72FA3972273502120013B093 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 72FA3971273502120013B093 /* PromiseKit */; };
+		72FA3975273502220013B093 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 72FA3974273502220013B093 /* Kingfisher */; };
+		72FA3978273502300013B093 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 72FA3977273502300013B093 /* SnapKit */; };
+		72FA397B273502460013B093 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 72FA397A273502460013B093 /* Charts */; };
+		72FA397E2735025A0013B093 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 72FA397D2735025A0013B093 /* MBProgressHUD */; };
+		72FA3981273502690013B093 /* TPKeyboardAvoiding in Frameworks */ = {isa = PBXBuildFile; productRef = 72FA3980273502690013B093 /* TPKeyboardAvoiding */; };
+		72FA39882735140E0013B093 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA39852735140E0013B093 /* Rubik-Bold.ttf */; };
+		72FA39892735140E0013B093 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA39862735140E0013B093 /* Rubik-Medium.ttf */; };
+		72FA398A2735140E0013B093 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72FA39872735140E0013B093 /* Rubik-Regular.ttf */; };
+		72FA398C273514350013B093 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA398B273514350013B093 /* Fonts.swift */; };
+		72FA3990273514CD0013B093 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA398F273514CD0013B093 /* DictionaryViewController.swift */; };
+		72FA3992273514D70013B093 /* DictionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3991273514D70013B093 /* DictionaryViewModel.swift */; };
+		72FA3994273514E90013B093 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3993273514E90013B093 /* BaseViewController.swift */; };
+		72FA39962735151D0013B093 /* DictPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39952735151D0013B093 /* DictPlaceholderView.swift */; };
+		72FA3998273515B70013B093 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3997273515B70013B093 /* Colors.swift */; };
+		72FA399A273516FD0013B093 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3999273516FD0013B093 /* TextField.swift */; };
+		72FA399D273518C20013B093 /* DictionaryServiceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA399C273518C20013B093 /* DictionaryServiceProxy.swift */; };
+		72FA399F273518F40013B093 /* DictionaryRemoteServiceSingletone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA399E273518F40013B093 /* DictionaryRemoteServiceSingletone.swift */; };
+		72FA39A1273519010013B093 /* DictionaryLocalServiceSingletone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39A0273519010013B093 /* DictionaryLocalServiceSingletone.swift */; };
+		72FA39A4273519490013B093 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39A3273519490013B093 /* Word.swift */; };
+		72FA39A62735219C0013B093 /* MeaningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39A52735219C0013B093 /* MeaningView.swift */; };
+		72FA39AB273522520013B093 /* MeaningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39AA273522520013B093 /* MeaningViewModel.swift */; };
+		72FA39AD273524AD0013B093 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39AC273524AD0013B093 /* CommonButton.swift */; };
+		72FA39AF2735284E0013B093 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39AE2735284E0013B093 /* TabBarView.swift */; };
+		72FA39B227352CB40013B093 /* TabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39B127352CB40013B093 /* TabBarItemView.swift */; };
+		72FA39B427352D970013B093 /* TabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39B327352D970013B093 /* TabType.swift */; };
+		72FA39B627352E780013B093 /* TabBarFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39B527352E780013B093 /* TabBarFactory.swift */; };
+		72FA39B927352FDE0013B093 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39B827352FDE0013B093 /* VideoViewController.swift */; };
+		72FA39BD273530D20013B093 /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39BC273530D20013B093 /* VideoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +79,29 @@
 		72FA395A273501B40013B093 /* WordsFactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordsFactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FA395E273501B40013B093 /* WordsFactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsFactoryUITests.swift; sourceTree = "<group>"; };
 		72FA3960273501B40013B093 /* WordsFactoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsFactoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72FA39852735140E0013B093 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		72FA39862735140E0013B093 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		72FA39872735140E0013B093 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		72FA398B273514350013B093 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		72FA398F273514CD0013B093 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
+		72FA3991273514D70013B093 /* DictionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewModel.swift; sourceTree = "<group>"; };
+		72FA3993273514E90013B093 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		72FA39952735151D0013B093 /* DictPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictPlaceholderView.swift; sourceTree = "<group>"; };
+		72FA3997273515B70013B093 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		72FA3999273516FD0013B093 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		72FA399C273518C20013B093 /* DictionaryServiceProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryServiceProxy.swift; sourceTree = "<group>"; };
+		72FA399E273518F40013B093 /* DictionaryRemoteServiceSingletone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRemoteServiceSingletone.swift; sourceTree = "<group>"; };
+		72FA39A0273519010013B093 /* DictionaryLocalServiceSingletone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryLocalServiceSingletone.swift; sourceTree = "<group>"; };
+		72FA39A3273519490013B093 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		72FA39A52735219C0013B093 /* MeaningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningView.swift; sourceTree = "<group>"; };
+		72FA39AA273522520013B093 /* MeaningViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningViewModel.swift; sourceTree = "<group>"; };
+		72FA39AC273524AD0013B093 /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		72FA39AE2735284E0013B093 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		72FA39B127352CB40013B093 /* TabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemView.swift; sourceTree = "<group>"; };
+		72FA39B327352D970013B093 /* TabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabType.swift; sourceTree = "<group>"; };
+		72FA39B527352E780013B093 /* TabBarFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarFactory.swift; sourceTree = "<group>"; };
+		72FA39B827352FDE0013B093 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		72FA39BC273530D20013B093 /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +109,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FA3981273502690013B093 /* TPKeyboardAvoiding in Frameworks */,
+				72FA397E2735025A0013B093 /* MBProgressHUD in Frameworks */,
+				72FA397B273502460013B093 /* Charts in Frameworks */,
+				72FA3975273502220013B093 /* Kingfisher in Frameworks */,
+				72FA3978273502300013B093 /* SnapKit in Frameworks */,
+				72FA396F273501E70013B093 /* Alamofire in Frameworks */,
+				72FA3972273502120013B093 /* PromiseKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +159,12 @@
 		72FA393C273501B20013B093 /* WordsFactory */ = {
 			isa = PBXGroup;
 			children = (
-				72FA393D273501B20013B093 /* AppDelegate.swift */,
-				72FA393F273501B20013B093 /* SceneDelegate.swift */,
-				72FA3941273501B20013B093 /* ViewController.swift */,
-				72FA3943273501B20013B093 /* Main.storyboard */,
-				72FA3946273501B40013B093 /* Assets.xcassets */,
-				72FA3948273501B40013B093 /* LaunchScreen.storyboard */,
+				72FA39A22735193D0013B093 /* Model */,
+				72FA399B273518A40013B093 /* Services */,
+				72FA398D273514740013B093 /* Scenes */,
+				72FA3984273513E30013B093 /* Common */,
+				72FA3983273513DD0013B093 /* Fonts */,
+				72FA3982273513D10013B093 /* Application */,
 				72FA394B273501B40013B093 /* Info.plist */,
 			);
 			path = WordsFactory;
@@ -127,6 +187,133 @@
 			path = WordsFactoryUITests;
 			sourceTree = "<group>";
 		};
+		72FA3982273513D10013B093 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				72FA393D273501B20013B093 /* AppDelegate.swift */,
+				72FA393F273501B20013B093 /* SceneDelegate.swift */,
+				72FA3941273501B20013B093 /* ViewController.swift */,
+				72FA3943273501B20013B093 /* Main.storyboard */,
+				72FA3946273501B40013B093 /* Assets.xcassets */,
+				72FA3948273501B40013B093 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		72FA3983273513DD0013B093 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39852735140E0013B093 /* Rubik-Bold.ttf */,
+				72FA39862735140E0013B093 /* Rubik-Medium.ttf */,
+				72FA39872735140E0013B093 /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		72FA3984273513E30013B093 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39B027352C9F0013B093 /* Tab Bar */,
+				72FA398B273514350013B093 /* Fonts.swift */,
+				72FA3993273514E90013B093 /* BaseViewController.swift */,
+				72FA3997273515B70013B093 /* Colors.swift */,
+				72FA3999273516FD0013B093 /* TextField.swift */,
+				72FA39AC273524AD0013B093 /* CommonButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		72FA398D273514740013B093 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39B727352FC80013B093 /* Video */,
+				72FA398E273514BA0013B093 /* Dictionary */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		72FA398E273514BA0013B093 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39A92735223F0013B093 /* View  */,
+				72FA39A8273522350013B093 /* View Model */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		72FA399B273518A40013B093 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				72FA399C273518C20013B093 /* DictionaryServiceProxy.swift */,
+				72FA399E273518F40013B093 /* DictionaryRemoteServiceSingletone.swift */,
+				72FA39A0273519010013B093 /* DictionaryLocalServiceSingletone.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		72FA39A22735193D0013B093 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39A3273519490013B093 /* Word.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72FA39A8273522350013B093 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				72FA3991273514D70013B093 /* DictionaryViewModel.swift */,
+				72FA39AA273522520013B093 /* MeaningViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		72FA39A92735223F0013B093 /* View  */ = {
+			isa = PBXGroup;
+			children = (
+				72FA398F273514CD0013B093 /* DictionaryViewController.swift */,
+				72FA39952735151D0013B093 /* DictPlaceholderView.swift */,
+				72FA39A52735219C0013B093 /* MeaningView.swift */,
+			);
+			path = "View ";
+			sourceTree = "<group>";
+		};
+		72FA39B027352C9F0013B093 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39AE2735284E0013B093 /* TabBarView.swift */,
+				72FA39B127352CB40013B093 /* TabBarItemView.swift */,
+				72FA39B327352D970013B093 /* TabType.swift */,
+				72FA39B527352E780013B093 /* TabBarFactory.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		72FA39B727352FC80013B093 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39BB273530C00013B093 /* View Model */,
+				72FA39BA273530BC0013B093 /* View */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		72FA39BA273530BC0013B093 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39B827352FDE0013B093 /* VideoViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72FA39BB273530C00013B093 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39BC273530D20013B093 /* VideoViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +330,15 @@
 			dependencies = (
 			);
 			name = WordsFactory;
+			packageProductDependencies = (
+				72FA396E273501E70013B093 /* Alamofire */,
+				72FA3971273502120013B093 /* PromiseKit */,
+				72FA3974273502220013B093 /* Kingfisher */,
+				72FA3977273502300013B093 /* SnapKit */,
+				72FA397A273502460013B093 /* Charts */,
+				72FA397D2735025A0013B093 /* MBProgressHUD */,
+				72FA3980273502690013B093 /* TPKeyboardAvoiding */,
+			);
 			productName = WordsFactory;
 			productReference = 72FA393A273501B20013B093 /* WordsFactory.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +411,15 @@
 				Base,
 			);
 			mainGroup = 72FA3931273501B20013B093;
+			packageReferences = (
+				72FA396D273501E70013B093 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				72FA3970273502120013B093 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+				72FA3973273502220013B093 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				72FA3976273502300013B093 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				72FA3979273502460013B093 /* XCRemoteSwiftPackageReference "Charts" */,
+				72FA397C2735025A0013B093 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				72FA397F273502690013B093 /* XCRemoteSwiftPackageReference "TPKeyboardAvoiding" */,
+			);
 			productRefGroup = 72FA393B273501B20013B093 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +437,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				72FA394A273501B40013B093 /* LaunchScreen.storyboard in Resources */,
+				72FA398A2735140E0013B093 /* Rubik-Regular.ttf in Resources */,
+				72FA39882735140E0013B093 /* Rubik-Bold.ttf in Resources */,
 				72FA3947273501B40013B093 /* Assets.xcassets in Resources */,
 				72FA3945273501B20013B093 /* Main.storyboard in Resources */,
+				72FA39892735140E0013B093 /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +466,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FA3992273514D70013B093 /* DictionaryViewModel.swift in Sources */,
+				72FA39B627352E780013B093 /* TabBarFactory.swift in Sources */,
+				72FA39A4273519490013B093 /* Word.swift in Sources */,
+				72FA3998273515B70013B093 /* Colors.swift in Sources */,
+				72FA3990273514CD0013B093 /* DictionaryViewController.swift in Sources */,
+				72FA39A1273519010013B093 /* DictionaryLocalServiceSingletone.swift in Sources */,
+				72FA39B927352FDE0013B093 /* VideoViewController.swift in Sources */,
+				72FA399A273516FD0013B093 /* TextField.swift in Sources */,
+				72FA398C273514350013B093 /* Fonts.swift in Sources */,
 				72FA3942273501B20013B093 /* ViewController.swift in Sources */,
 				72FA393E273501B20013B093 /* AppDelegate.swift in Sources */,
+				72FA399F273518F40013B093 /* DictionaryRemoteServiceSingletone.swift in Sources */,
+				72FA39AF2735284E0013B093 /* TabBarView.swift in Sources */,
+				72FA399D273518C20013B093 /* DictionaryServiceProxy.swift in Sources */,
+				72FA3994273514E90013B093 /* BaseViewController.swift in Sources */,
+				72FA39B227352CB40013B093 /* TabBarItemView.swift in Sources */,
+				72FA39AB273522520013B093 /* MeaningViewModel.swift in Sources */,
+				72FA39AD273524AD0013B093 /* CommonButton.swift in Sources */,
+				72FA39BD273530D20013B093 /* VideoViewModel.swift in Sources */,
+				72FA39962735151D0013B093 /* DictPlaceholderView.swift in Sources */,
+				72FA39B427352D970013B093 /* TabType.swift in Sources */,
 				72FA3940273501B20013B093 /* SceneDelegate.swift in Sources */,
+				72FA39A62735219C0013B093 /* MeaningView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +852,103 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72FA396D273501E70013B093 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		72FA3970273502120013B093 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				branch = v6;
+				kind = branch;
+			};
+		};
+		72FA3973273502220013B093 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		72FA3976273502300013B093 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		72FA3979273502460013B093 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		72FA397C2735025A0013B093 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		72FA397F273502690013B093 /* XCRemoteSwiftPackageReference "TPKeyboardAvoiding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michaeltyson/TPKeyboardAvoiding";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72FA396E273501E70013B093 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72FA396D273501E70013B093 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		72FA3971273502120013B093 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72FA3970273502120013B093 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		72FA3974273502220013B093 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72FA3973273502220013B093 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		72FA3977273502300013B093 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72FA3976273502300013B093 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		72FA397A273502460013B093 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72FA3979273502460013B093 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		72FA397D2735025A0013B093 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72FA397C2735025A0013B093 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		72FA3980273502690013B093 /* TPKeyboardAvoiding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72FA397F273502690013B093 /* XCRemoteSwiftPackageReference "TPKeyboardAvoiding" */;
+			productName = TPKeyboardAvoiding;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 72FA3932273501B20013B093 /* Project object */;
 }
