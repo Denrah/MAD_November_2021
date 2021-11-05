@@ -13,3 +13,6 @@
 3. Factory method
 Находится по пути /WordsFactory/Common/Tab Bar/TabBarFactory.swift
 Является фабричным методом, который создает объекты для таббара
+
+Также фабричный метод используется в /WordsFactory/Scenes/Onboarding/View Model/OnboardingPagesFactory.swift
+Используется для создания вьюмоделей страниц онбординга

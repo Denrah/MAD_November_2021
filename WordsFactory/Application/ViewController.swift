@@ -11,8 +11,8 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    navigationController?.setViewControllers([OnboardingViewController(viewModel: OnboardingViewModel())], animated: false)
     
-    navigationController?.setViewControllers([DictionaryViewController(viewModel: DictionaryViewModel())], animated: false)
     // Do any additional setup after loading the view.
   }
 

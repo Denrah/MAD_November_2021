@@ -46,6 +46,12 @@
 		72FA39B627352E780013B093 /* TabBarFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39B527352E780013B093 /* TabBarFactory.swift */; };
 		72FA39B927352FDE0013B093 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39B827352FDE0013B093 /* VideoViewController.swift */; };
 		72FA39BD273530D20013B093 /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39BC273530D20013B093 /* VideoViewModel.swift */; };
+		72FA39C12735375B0013B093 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39C02735375B0013B093 /* OnboardingViewController.swift */; };
+		72FA39C3273537A90013B093 /* OnboadingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39C2273537A90013B093 /* OnboadingPageView.swift */; };
+		72FA39C6273539440013B093 /* OnboadingPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39C5273539440013B093 /* OnboadingPageViewModel.swift */; };
+		72FA39C82735398E0013B093 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39C72735398E0013B093 /* OnboardingViewModel.swift */; };
+		72FA39CA27353AF90013B093 /* OnboardingPagesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39C927353AF80013B093 /* OnboardingPagesFactory.swift */; };
+		72FA39CC27353BCC0013B093 /* OnboardingPageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FA39CB27353BCC0013B093 /* OnboardingPageType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +108,12 @@
 		72FA39B527352E780013B093 /* TabBarFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarFactory.swift; sourceTree = "<group>"; };
 		72FA39B827352FDE0013B093 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		72FA39BC273530D20013B093 /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
+		72FA39C02735375B0013B093 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		72FA39C2273537A90013B093 /* OnboadingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboadingPageView.swift; sourceTree = "<group>"; };
+		72FA39C5273539440013B093 /* OnboadingPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboadingPageViewModel.swift; sourceTree = "<group>"; };
+		72FA39C72735398E0013B093 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		72FA39C927353AF80013B093 /* OnboardingPagesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPagesFactory.swift; sourceTree = "<group>"; };
+		72FA39CB27353BCC0013B093 /* OnboardingPageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +238,7 @@
 		72FA398D273514740013B093 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				72FA39BE2735373C0013B093 /* Onboarding */,
 				72FA39B727352FC80013B093 /* Video */,
 				72FA398E273514BA0013B093 /* Dictionary */,
 			);
@@ -310,6 +323,35 @@
 			isa = PBXGroup;
 			children = (
 				72FA39BC273530D20013B093 /* VideoViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		72FA39BE2735373C0013B093 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39C4273539390013B093 /* View Model */,
+				72FA39BF273537430013B093 /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		72FA39BF273537430013B093 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39C02735375B0013B093 /* OnboardingViewController.swift */,
+				72FA39C2273537A90013B093 /* OnboadingPageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72FA39C4273539390013B093 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				72FA39C5273539440013B093 /* OnboadingPageViewModel.swift */,
+				72FA39C72735398E0013B093 /* OnboardingViewModel.swift */,
+				72FA39C927353AF80013B093 /* OnboardingPagesFactory.swift */,
+				72FA39CB27353BCC0013B093 /* OnboardingPageType.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -468,23 +510,29 @@
 			files = (
 				72FA3992273514D70013B093 /* DictionaryViewModel.swift in Sources */,
 				72FA39B627352E780013B093 /* TabBarFactory.swift in Sources */,
+				72FA39CA27353AF90013B093 /* OnboardingPagesFactory.swift in Sources */,
 				72FA39A4273519490013B093 /* Word.swift in Sources */,
 				72FA3998273515B70013B093 /* Colors.swift in Sources */,
+				72FA39C82735398E0013B093 /* OnboardingViewModel.swift in Sources */,
 				72FA3990273514CD0013B093 /* DictionaryViewController.swift in Sources */,
 				72FA39A1273519010013B093 /* DictionaryLocalServiceSingletone.swift in Sources */,
 				72FA39B927352FDE0013B093 /* VideoViewController.swift in Sources */,
+				72FA39C6273539440013B093 /* OnboadingPageViewModel.swift in Sources */,
 				72FA399A273516FD0013B093 /* TextField.swift in Sources */,
 				72FA398C273514350013B093 /* Fonts.swift in Sources */,
 				72FA3942273501B20013B093 /* ViewController.swift in Sources */,
 				72FA393E273501B20013B093 /* AppDelegate.swift in Sources */,
 				72FA399F273518F40013B093 /* DictionaryRemoteServiceSingletone.swift in Sources */,
 				72FA39AF2735284E0013B093 /* TabBarView.swift in Sources */,
+				72FA39C3273537A90013B093 /* OnboadingPageView.swift in Sources */,
 				72FA399D273518C20013B093 /* DictionaryServiceProxy.swift in Sources */,
 				72FA3994273514E90013B093 /* BaseViewController.swift in Sources */,
+				72FA39CC27353BCC0013B093 /* OnboardingPageType.swift in Sources */,
 				72FA39B227352CB40013B093 /* TabBarItemView.swift in Sources */,
 				72FA39AB273522520013B093 /* MeaningViewModel.swift in Sources */,
 				72FA39AD273524AD0013B093 /* CommonButton.swift in Sources */,
 				72FA39BD273530D20013B093 /* VideoViewModel.swift in Sources */,
+				72FA39C12735375B0013B093 /* OnboardingViewController.swift in Sources */,
 				72FA39962735151D0013B093 /* DictPlaceholderView.swift in Sources */,
 				72FA39B427352D970013B093 /* TabType.swift in Sources */,
 				72FA3940273501B20013B093 /* SceneDelegate.swift in Sources */,
